@@ -45,6 +45,7 @@ public:
         return character->getAbilities() + " with Gun";
     }
 };
+
 // Concrete Decorator: Star Power-Up (temporary ability).
 class StarPowerUp : public CharacterDecorator {
 public:
@@ -59,6 +60,7 @@ public:
     }
 }; 
 
+//main 
 int main (){
     // Create a basic Mario character.
     Character* mario = new Mario(); 
